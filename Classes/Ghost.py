@@ -125,8 +125,8 @@ def main():
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ]
     fives = get_cord_five(ar)
-    ghosts = [Ghost('g1.png', fives[0]), Ghost('g2.png', fives[1]), Ghost('g3.png', fives[2]),
-              Ghost('g4.png', fives[3])]
+    ghosts = [Ghost('Sprites/g1.png', fives[0]), Ghost('Spries/g2.png', fives[1]), Ghost('Sprites/g3.png', fives[2]),
+              Ghost('Sprites/g4.png', fives[3])]
     for ghost in ghosts:
         ghost.change_size_of_cell(ar)
     game_over = False
