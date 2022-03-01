@@ -45,7 +45,7 @@ class Pause:
                                                                              self.height // 2 + 50],
                                   [self.width // 2 - 50, self.height // 2 - 50]]
         self.point_x, self.point_y = 60, 50
-        self.close = image.load('close.png')
+        self.close = image.load('Sprites/close.png')
         self.close = transform.scale(self.close, (50, 50))
         self.close_rect = self.close.get_rect()
         self.close_rect.x = self.width - 60
