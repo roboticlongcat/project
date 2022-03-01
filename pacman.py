@@ -74,7 +74,7 @@ def main():
     dots = place_dots(ar)
     big_dots = place_dots(ar, 3)
     six = get_cord_six(ar)
-    pacman = Pacman.Pacman(screen, 'Sprites/pacman.png', six[0])
+    pacman = Pacman.Pacman(screen, 'pacman.png', six[0])
     fives = get_cord_five(ar)
     ghosts = [Ghost.Ghost('g1.png', fives[0]), Ghost.Ghost('g2.png', fives[1]), Ghost.Ghost('g3.png', fives[2]),
               Ghost.Ghost('g4.png', fives[3])]
